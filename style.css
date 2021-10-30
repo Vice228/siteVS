@@ -1,0 +1,97 @@
+.mynav
+{
+    background-color: rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+}
+.li-flex
+{
+    position: relative;
+    color:black;
+    text-align: center;
+    margin-right: 83px;
+    top: 50px;
+    float: right;
+    list-style: none;
+}
+
+.li-flex:before{
+    color: rgb(0, 0, 0);
+    content: "|";
+}
+
+.wrapper
+{
+    margin-left: 70%;
+    height: 100%;
+    margin-top: 0%;
+}
+.flex-row-div
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+.zagolovok
+{
+    height: 100%;
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+.otdel1
+{
+    background-color: black;
+    color: white;
+    margin-bottom: 0%;
+    padding-bottom: 20px;
+}
+.otstup
+{
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+.list_of_competencies{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 40px;
+    font-size: 20px;
+}
+
+.zagolovok1
+{
+    height: 100%;
+    padding-top: 20px;
+    font-size: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.content
+{
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+}
+
+.more
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+footer
+{
+    font-size: 12px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+}
